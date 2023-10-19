@@ -1,0 +1,33 @@
+.pfp {
+    border-radius: 50%;
+}
+
+.darkblue {
+    background-color: #192655;
+}
+
+/* Basic styling for the timeline container */
+.timeline {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Styling for individual timeline events */
+  .timeline li {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+  } 
+  
+  /* Styling for the timeline date */
+  .timeline-date {
+    margin-left: auto;
+    font-weight: bold;
+  }
+  
+  /* Styling for the timeline content (event details) */
+  .timeline-content {
+    padding: 15px;
+    border-radius: 5px;
+  }
+  
